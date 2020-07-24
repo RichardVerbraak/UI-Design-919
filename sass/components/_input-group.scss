@@ -1,0 +1,56 @@
+.input__group {
+	&--label {
+		display: block;
+		color: $label-color;
+		font-weight: bold;
+		font-size: 1.4rem;
+		margin-bottom: 6px;
+	}
+
+	&--input {
+		border: 1px solid $input-border;
+		border-radius: 3px;
+		background-color: $input-background;
+		color: #fff;
+		width: 38rem;
+		padding: 1.8rem 5.2rem 1.8rem 1.5rem;
+		margin-bottom: 1.6rem;
+
+		&::placeholder {
+			color: #97a5ce;
+			opacity: 0.5;
+		}
+
+		&:focus {
+			outline: none;
+			border-color: $input-outline;
+		}
+	}
+
+	&--btn {
+		border: 1px solid $input-border;
+		border-radius: 3px;
+		background-color: $input-background;
+		color: #fff;
+		margin-bottom: 1.6rem;
+		padding: 1rem 4rem;
+	}
+
+	&--small {
+		font-family: 'Mulish';
+		font-size: 1.6rem;
+		font-weight: 400;
+		color: $label-color;
+	}
+
+	&--area {
+		height: 20rem;
+		resize: none;
+	}
+
+	&--buttons {
+		display: flex;
+		width: 38rem;
+		justify-content: space-between;
+	}
+}
