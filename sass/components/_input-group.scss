@@ -17,7 +17,7 @@
 		margin-bottom: 1.6rem;
 
 		&::placeholder {
-			color: #97a5ce;
+			color: $label-color;
 			opacity: 0.5;
 		}
 
@@ -27,11 +27,14 @@
 		}
 	}
 
+	&--option {
+	}
+
 	&--btn {
 		border: 1px solid $input-border;
 		border-radius: 3px;
 		background-color: $input-background;
-		color: #fff;
+		color: $label-color;
 		margin-bottom: 1.6rem;
 		padding: 1rem 4rem;
 	}

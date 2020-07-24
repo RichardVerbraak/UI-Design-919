@@ -18,6 +18,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  width: 515px;
+  height: 515px;
+  left: 73%;
+  top: 61%;
 }
 
 html {
@@ -49,7 +58,7 @@ textarea {
           flex-direction: column;
   background-color: #242e4c;
   width: 144rem;
-  height: 100rem;
+  height: 80rem;
   margin: 14.4rem 8rem;
   padding: 8rem;
   border-radius: 1.5rem;
@@ -63,6 +72,7 @@ textarea {
 }
 
 .container-logo {
+  font-size: 1.7rem;
   margin-bottom: 5.1rem;
 }
 
@@ -131,7 +141,7 @@ textarea {
   border: 1px solid #171f38;
   border-radius: 3px;
   background-color: #242e4c;
-  color: #fff;
+  color: #97a5ce;
   margin-bottom: 1.6rem;
   padding: 1rem 4rem;
 }

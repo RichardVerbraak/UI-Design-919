@@ -11,6 +11,16 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	position: relative;
+}
+
+.background {
+	position: absolute;
+	width: 515px;
+	height: 515px;
+	left: 73%;
+	top: 61%;
 }
 
 html {
